@@ -1,0 +1,13 @@
+export(EHRmuse)
+export(expit)
+
+importFrom(dplyr, select, all_of)
+importFrom(magrittr, "%>%")
+importFrom(stats, glm, quasibinomial, coef, as.formula)
+importFrom(survey, svydesign, svyglm)
+importFrom(nleqslv, nleqslv)
+importFrom(xgboost, xgb.DMatrix, xgboost)
+importFrom(simplexreg, simplexreg)
+importFrom(MASS, mvrnorm)
+importFrom(nnet, multinom)
+importFrom("stats", "predict", "relevel")
